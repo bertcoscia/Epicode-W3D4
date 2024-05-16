@@ -21,5 +21,20 @@ const createBoard = () => {
   } // chiudo il for
 };
 
-createBoard();
-console.log(board.innerText);
+const drawnNumbers = [];
+
+// genero numero random al click del button
+const button = document.getElementById("draw-number"); // creo riferimento al btn
+
+//aggiungo eventlistener
+button.addEventListener("click", (event) => {
+  const randomNumber = Math.floor(Math.random() * 76) + 1; //genero numero random compreso tra 1 e 76
+  drawnNumbers.push(randomNumber);
+  console.log(drawnNumbers);
+
+  console.log(board);
+});
+
+window.addEventListener("DOMContentLoaded", (event) => {
+  createBoard();
+});

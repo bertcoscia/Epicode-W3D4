@@ -3,8 +3,7 @@ body {
     width: 70%;
     margin: auto;
     color: black;
-/*     background: #09796d;
- */}
+}
 
 .cell {
     display: inline-block;
@@ -20,4 +19,8 @@ body {
 
 #draw-number {
     margin-bottom: 5em;
+}
+
+.drawn {
+    color: black;
 }
