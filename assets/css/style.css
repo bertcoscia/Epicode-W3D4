@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: black;
+/*     background: #09796d;
+ */}
+
+.cell {
+    display: inline-block;
+    width: 13.6%;
+    height: 106px;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 8px;
+    line-height: 65px;
+    margin: 10px;
+    color: lightgrey;
+}
+
+#draw-number {
+    margin-bottom: 5em;
+}
