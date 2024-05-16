@@ -2,12 +2,13 @@ body {
     text-align: center;
     width: 70%;
     margin: auto;
-    color: black;
+   /*  color: white;
+    background-color: #131334; */
 }
 
 .cell {
     display: inline-block;
-    width: 13.6%;
+    width: 100px;
     height: 106px;
     position: relative;
     border: 1px solid grey;
@@ -24,3 +25,7 @@ body {
 .drawn {
     color: black;
 }
+
+/* #board-container {
+    background-color: #0c0b1d;
+} */

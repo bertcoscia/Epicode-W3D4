@@ -21,7 +21,7 @@ const createBoard = () => {
   } // chiudo il for
 };
 
-const drawnNumbers = [];
+// const drawnNumbers = [];
 
 // genero numero random al click del button
 const button = document.getElementById("draw-number"); // creo riferimento al btn
@@ -29,10 +29,12 @@ const button = document.getElementById("draw-number"); // creo riferimento al bt
 //aggiungo eventlistener
 button.addEventListener("click", (event) => {
   const randomNumber = Math.floor(Math.random() * 76) + 1; //genero numero random compreso tra 1 e 76
-  drawnNumbers.push(randomNumber);
-  console.log(drawnNumbers);
+  /* drawnNumbers.push(randomNumber);
+  console.log(drawnNumbers); */
 
-  console.log(board);
+  const cells = document.querySelectorAll(".cell");
+
+  cells[randomNumber - 1].classList.add("drawn");
 });
 
 window.addEventListener("DOMContentLoaded", (event) => {
