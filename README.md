@@ -10,7 +10,7 @@ numero), ad esempio cambiandone il colore di sfondo.
 
 - Mantieni evidenziate le celle corrispondenti ai numeri precedentemente estratti dopo ogni nuova estrazione.
 
-EXTRA:
+**EXTRA:**
 
 - Fai in modo che non sia possibile richiamare un numero già precedentemente estratto.
 
