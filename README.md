@@ -1,4 +1,4 @@
-# Epicode-U1W3D4
+# Epicode-W3D4
  
 - Crea programmaticamente, utilizzando JS, un tabellone per la Tombola formato da 76 celle, numerate con i
 numeri da 1 a 76.
